@@ -1,0 +1,75 @@
+.body {
+    width: 100%;
+    height: 300px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 40px;
+    top: 50%;
+    left: 50%;
+    margin-bottom: 1000px;
+    column-gap: 100px;
+}
+.fullBodyContent {
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 800px) {
+    .body {
+        display: block;
+    }
+
+    .card {
+        margin-bottom: 40px;
+    }
+}
+
+.card-width {
+    width: 18rem;
+}
+
+.btn-display {
+    display: flex;
+    text-align: center;
+    column-gap: 5%;
+    bottom: 10px;
+}
+
+
+
+.quantity {
+    margin-top: 5px;
+}
+
+.div-hover:hover {
+    box-shadow: -3px -2px 30px 10px rgba(0,0,0,0.2);
+    transition-duration: 0.4s;
+}
+
+.div-hover {
+    transition-duration: 0.4s;
+}
+
+.continue {
+    padding: 35px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.con-btn {
+    font-size: 24px;
+    padding: 15px;
+    width: 50%;
+    transition: width 0.4s;
+}
+
+.con-btn:hover {
+    width: 55%;
+}
+
+.imageDiv {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

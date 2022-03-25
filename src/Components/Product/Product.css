@@ -1,0 +1,16 @@
+.productCard {
+    align-content: center;
+    margin-left: 10%;
+    clear: both;
+    display: table;
+    padding: 50px;
+}
+
+.imageDimentions {
+    width: 400px;
+    float: right;
+}
+
+.desciptionP {
+    font-size: 24px;
+}

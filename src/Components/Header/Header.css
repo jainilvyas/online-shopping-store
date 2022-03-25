@@ -1,0 +1,37 @@
+.constant-header {
+    width: 100%;
+    font-size: 50px;
+    padding: 35px;
+    font-weight: bold;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(128, 128, 128);
+}
+
+.outer-div {
+    display: flex;
+}
+
+.add-to-card {
+    padding: 50px;
+    font-size: 25px;
+    margin-left: -15%;
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.buttonMargin {
+    height: 40px;
+}
+
+.cart-icon {
+    margin-top: 5px;
+}
